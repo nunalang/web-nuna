@@ -104,7 +104,7 @@ function run (code) {
       // 거듭제곱
       case '흐': {
         const many = getMany()
-        if (statements[pointer + many] !== '읏') {
+        if (statements[pointer] !== '읏') {
           printOut('[!] Fatal: "흐"로 시작하는 Operation은 "읏"으로 끝나야 합니다')
           return 1
         }
@@ -131,7 +131,9 @@ function run (code) {
 
       // Special characters
       case '.':
-      case '으': { break }
+      case '으':
+      case '읏':
+        { break }
 
       // Escapes
       case '\n':
