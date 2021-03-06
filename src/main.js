@@ -70,7 +70,6 @@ function run (code) {
       }
 
       // 차
-      case '죽':
       case '주': {
         const many = getMany()
         variables[recentCreated] -= (many || 1)
