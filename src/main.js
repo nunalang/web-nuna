@@ -97,7 +97,7 @@ function run (code) {
         if (variables[recentCreated - 1] !== undefined)
           variables[recentCreated - 1] = null
 
-        variables[recentCreated] -= prev
+        variables[recentCreated] = prev - variables[recentCreated]
         break
       }
 
