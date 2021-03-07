@@ -13,3 +13,8 @@ DOM의 특성상 입/출력이 느려 상당히 느립니다
 * 한글자로 보기 어려운 `💕 (u+d83d, u+dc95)`는 처리 과정에서 `੩ (u+2665)`로 변환합니다.
 * `흐` 뒤에 `읏` 여부는 변수값 처리 이후 확인합니다.
 * 그 이외는 명세를 따릅니다.
+
+
+## 연습장
+* [github page](https://nunalang.github.io/web-nuna/)
+* [pmh-only](https://static.pmh.codes/nunalang/web-nuna/v0.3-alpha/)
