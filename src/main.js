@@ -57,7 +57,8 @@ function run (code) {
       // 스택 생성
       case '눈':
       case '누': {
-        recentCreated = variables.push(1) - 1
+        const many = getMany()
+        recentCreated = variables.push(many || 1) - 1
         break
       }
 
